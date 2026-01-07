@@ -50,6 +50,8 @@ Large language model (LLM)-integrated applications have become increasingly prev
 
 To address these issues, we propose **InstruCoT**, a model enhancement method for PI defense that synthesizes diverse training data and employs instruction-level chain-of-thought fine-tuning, enabling LLMs to effectively identify and reject malicious instructions regardless of their source or position in the context.
 
+![Method Overview](https://github.com/lsplx/InstruCoT-LLM/blob/main/fig/method_overview.png?raw=true)
+
 We evaluate InstruCoT across three critical dimensions: **Behavior Deviation**, **Privacy Leakage**, and **Harmful Output**. Experimental results across four LLMs demonstrate that InstruCoT significantly outperforms baselines in all dimensions while maintaining utility performance without degradation.
 
 ## Violation Pattern Taxonomy
