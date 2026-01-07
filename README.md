@@ -76,6 +76,9 @@ Our framework categorizes prompt injection attacks into three main categories:
 
 Covers 13 safety categories: Illegal Activity, Hate Speech, Malware Generation, Physical Harm, Economic Harm, Fraud, Pornography, Political Lobbying, Privacy Violation, Legal Opinion, Financial Advice, Health Consultation, and Government Decision.
 
+## Dataset
+The generated instruction-level CoT dataset is available in the data/ directory. The dataset contains training samples with chain-of-thought annotations for prompt injection defense.
+
 ## Code Description
 
 ### PI_generation.py
@@ -92,5 +95,4 @@ This script generates diverse prompt injection samples across all violation patt
 python PI_generation.  
 python CoT_generation.py
 
-## Dataset
-The generated instruction-level CoT dataset is available in the data/ directory. The dataset contains training samples with chain-of-thought annotations for prompt injection defense.
+
