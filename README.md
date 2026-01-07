@@ -57,4 +57,18 @@ This script generates diverse prompt injection samples across all violation patt
 **Usage:**
 ```bash
 python PI_generation.  
+```
+
+### CoT_generation.py
+
+This script generates instruction-aware chain-of-thought reasoning for each sample.
+
+**Features:**
+- Generates step-by-step reasoning for identifying malicious instructions
+- Produces training data suitable for fine-tuning LLMs
+- Supports both positive (benign) and negative (malicious) examples
+
+**Usage:**
+```bash
 python CoT_generation.py
+```
