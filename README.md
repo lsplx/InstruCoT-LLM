@@ -72,3 +72,15 @@ This script generates instruction-aware chain-of-thought reasoning for each samp
 ```bash
 python CoT_generation.py
 ```
+
+**Dataset:**
+
+The pre-generated training dataset is available for download:
+
+- **Download Link:** [Baidu Netdisk](https://pan.baidu.com/s/19kLx9pzcJzHH9R0Jr-8yAg?pwd=gp8j)
+- **Access Code:** `gp8j`
+
+The dataset contains Chain-of-Thought annotated examples in JSON format, with each sample including:
+- System prompt
+- User instruction
+- Assistant response with structured reasoning (`<Instructions>`, `<Violation_Analysis>`, `<Summarization>`, and `[RESPONSE]`)
